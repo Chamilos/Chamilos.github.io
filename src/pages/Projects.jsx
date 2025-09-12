@@ -65,7 +65,10 @@ export default function Projects() {
             className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 justify-items-center ${soloGridItem()}`}
           >
             {EXAMPLES[selectedTopic].projects.map((project, index) => (
-              <div key={index} className="tab-content relative flex flex-col">
+              <div
+                key={index}
+                className="tab-content max-w-[370px] relative flex flex-col"
+              >
                 <a
                   className="absolute inset-0"
                   href={project.link}
