@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -560,7 +560,7 @@ h3 {
   line-height: 2.5rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: hsl(210 10% 33% / var(--tw-text-opacity));
+  color: hsl(210 10% 33% / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
@@ -576,7 +576,7 @@ h5 {
   line-height: 2rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: hsl(210 10% 33% / var(--tw-text-opacity));
+  color: hsl(210 10% 33% / var(--tw-text-opacity, 1));
 }
 
 .relative {
@@ -714,17 +714,17 @@ h5 {
 
 .bg-gray-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
 .bg-lightBlue {
   --tw-bg-opacity: 1;
-  background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
+  background-color: hsl(233 100% 69% / var(--tw-bg-opacity, 1));
 }
 
 .bg-strongCyan {
   --tw-bg-opacity: 1;
-  background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
+  background-color: hsl(171 66% 44% / var(--tw-bg-opacity, 1));
 }
 
 .p-4 {
@@ -766,7 +766,7 @@ h5 {
 
 .text-grayishBlue {
   --tw-text-opacity: 1;
-  color: hsl(201 11% 66% / var(--tw-text-opacity));
+  color: hsl(201 11% 66% / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg {
@@ -795,7 +795,7 @@ h5 {
   text-align: center;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
-  color: hsl(201 11% 66% / var(--tw-text-opacity));
+  color: hsl(201 11% 66% / var(--tw-text-opacity, 1));
 }
 
 .button-container {
@@ -815,7 +815,7 @@ h5 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
@@ -851,7 +851,7 @@ body {
 
 .hover\:text-strongCyan:hover {
   --tw-text-opacity: 1;
-  color: hsl(171 66% 44% / var(--tw-text-opacity));
+  color: hsl(171 66% 44% / var(--tw-text-opacity, 1));
 }
 
 .hover\:opacity-80:hover {
