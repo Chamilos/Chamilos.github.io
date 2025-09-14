@@ -81,32 +81,32 @@ export const EXAMPLES = {
     projects: [
       {
         title: "Astro-Project",
-        link: "../../projects/Astro/index.html",
+        link: "./projects/Astro/index.html",
         img: astroProject,
       },
       {
         title: "Loop Studio",
-        link: "../../projects/LoopStudio/index.html",
+        link: "./projects/LoopStudio/index.html",
         img: loopStudioProject,
       },
       {
         title: "Bookmark Manager",
-        link: "../../projects/Bookmark/index.html",
+        link: "./projects/Bookmark/index.html",
         img: bookmarkProject,
       },
       {
         title: "Fylo File Manager",
-        link: "../../projects/Fylo/index.html",
+        link: "./projects/Fylo/index.html",
         img: fyloProject,
       },
       {
         title: "Shorten Links",
-        link: "../../projects/ShortenLink/index.html",
+        link: "./projects/ShortenLink/index.html",
         img: shortenLinkProject,
       },
       {
         title: "Clipboard",
-        link: "../../projects/Clipboard/index.html",
+        link: "./projects/Clipboard/index.html",
         img: clipboardProject,
       },
     ],
@@ -128,17 +128,17 @@ export const EXAMPLES = {
     projects: [
       {
         title: "Restaurant Menu Project",
-        link: "../../projects/RestaurantMenu/index.html",
+        link: "./projects/RestaurantMenu/index.html",
         img: restaurantProject,
       },
       {
         title: "e-Shop",
-        link: "../../projects/E-shop/index.html",
+        link: "./projects/E-shop/index.html",
         img: eshopProject,
       },
       {
         title: "Trobone Product Sales",
-        link: "../../projects/Trombone/index.html",
+        link: "./projects/Trombone/index.html",
         img: troboneProject,
       },
     ],
@@ -149,17 +149,17 @@ export const EXAMPLES = {
     projects: [
       {
         title: "Testimonials Grid",
-        link: "../../projects/GridTestimonials/index.html",
+        link: "./projects/GridTestimonials/index.html",
         img: testimonialsProject,
       },
       {
         title: "Documentation Page",
-        link: "../../projects/Documentation/index.html",
+        link: "./projects/Documentation/index.html",
         img: documentationProject,
       },
       {
         title: "Palidrome Words",
-        link: "../../projects/PalidromeWord/index.html",
+        link: "./projects/PalidromeWord/index.html",
         img: palidromeProject,
       },
     ],
