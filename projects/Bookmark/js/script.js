@@ -3,7 +3,6 @@ const panels = document.querySelectorAll('.panel')
 const btn = document.getElementById('menu-btn')
 const menu = document.getElementById('menu')
 const logo = document.getElementById('logo')
-const menuLink = document.querySelectorAll('#menu a')
 
 // Tabs menu event listener
 tabs.forEach((tab) => tab.addEventListener('click', onTabClick))
@@ -44,12 +43,3 @@ function navToggle() {
     logo.setAttribute('src', './images/logo-bookmark.svg')
   }
 }
-
-// Hide Mobile Menu when you click a item
-menuLink.forEach((link) => {
-  link.addEventListener("click", () => {
-    btn.classList.remove("open");
-    menu.classList.remove("flex");
-    menu.classList.add("hidden");
-  });
-});
